@@ -5,22 +5,22 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey?style=for-the-badge&logo=windows)
 
 An AI-powered personal assistant inspired by Tony Stark’s J.A.R.V.I.S.  
-This project integrates voice recognition, automation, and intelligent responses to create a futuristic assistant experience.
+This project integrates **voice recognition**, **machine learning models**, and **automation** to create a futuristic assistant experience.
 
 > **⚠️ DISCLAIMER:**  
-> This software is developed by **Magne Dina Julião Neves** strictly for **educational purposes** and personal experimentation.  
+> Developed by **Magne Dina Neves** strictly for **educational purposes** and personal experimentation.  
 > It demonstrates natural language processing, system automation, and AI integration.  
-> The author allows usage only on authorized systems. **Malicious use is prohibited.**
+> Usage is allowed only on authorized systems. **Malicious use is prohibited.**
 
 ---
 
 ## ✨ Features
 
 - **🎙️ Voice Commands:** Control your system and applications hands-free.  
-- **🤖 AI Responses:** Context-aware replies powered by NLP.  
+- **🤖 AI Responses:** Context-aware replies powered by trained ML models.  
 - **💻 System Automation:** Open apps, manage files, and execute tasks.  
 - **🌐 Web Integration:** Search the internet and fetch information.  
-- **🔒 Secure Design:** Configurable modules with user privacy in mind.  
+- **🧠 Machine Learning:** Uses trained models (`chat_model.h5`, `tokenizer.pkl`, `label_encoder.pkl`) for intent recognition.  
 
 ---
 
@@ -30,15 +30,17 @@ This project integrates voice recognition, automation, and intelligent responses
 - **Libraries:**  
   - `speech_recognition` – voice input  
   - `pyttsx3` – text-to-speech output  
+  - `tensorflow/keras` – deep learning models  
+  - `pickle` – model serialization  
   - `os` – system control  
   - `requests` – API integration  
 - **Infrastructure:** Local execution with optional cloud APIs  
 
 ---
 
-## ⚙️ Installation & Setup
+## 📂 Project Structure
 
-### 1. Prerequisites
+
 
 Ensure you have Python installed. Then install the required dependencies:
 
