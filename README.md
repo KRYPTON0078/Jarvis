@@ -1,61 +1,46 @@
-<h1 align="center">🦾 Iron Man J.A.R.V.I.S. Assistant</h1>
+# 🦾 Iron Man J.A.R.V.I.S. Assistant
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Project Status">
-  <img src="https://img.shields.io/badge/Version-1.0-blue" alt="Version">
-  <img src="https://img.shields.io/badge/Powered%20By-Python-orange" alt="Powered By Python">
-</p>
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![Voice](https://img.shields.io/badge/Voice-Recognition-green?style=for-the-badge&logo=google)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey?style=for-the-badge&logo=windows)
 
-<p align="center">
-  <strong>Your very own AI-powered assistant inspired by Tony Stark’s J.A.R.V.I.S.</strong><br>
-  Voice commands, smart automation, and futuristic interaction all in one project.
-</p>
+An AI-powered personal assistant inspired by Tony Stark’s J.A.R.V.I.S.  
+This project integrates voice recognition, automation, and intelligent responses to create a futuristic assistant experience.
 
-<hr>
+> **⚠️ DISCLAIMER:**  
+> This software is developed by **Magne Dina Julião Neves** strictly for **educational purposes** and personal experimentation.  
+> It demonstrates natural language processing, system automation, and AI integration.  
+> The author allows usage only on authorized systems. **Malicious use is prohibited.**
 
-<h2>👨‍💻 Developed By</h2>
-<p>
-  <strong>Magne Dina Julião Neves</strong><br>
-  Year 3 Electrical and Computer Engineering student at the University of Macau, passionate about resilient communication systems, inclusive digital development, and applied AI.
-</p>
+---
 
-<h2>✨ Features</h2>
-<ul>
-  <li>🎙️ Voice recognition and natural language processing</li>
-  <li>🤖 AI-driven responses and task automation</li>
-  <li>💻 System control (open apps, manage files, etc.)</li>
-  <li>🌐 Web search and information retrieval</li>
-  <li>🔒 Secure and customizable architecture</li>
-</ul>
+## ✨ Features
 
-<h2>🚀 Getting Started</h2>
-<ol>
-  <li>Clone the repository: <code>git clone https://github.com/yourusername/jarvis-assistant.git</code></li>
-  <li>Install dependencies: <code>pip install -r requirements.txt</code></li>
-  <li>Run the assistant: <code>python jarvis.py</code></li>
-</ol>
+- **🎙️ Voice Commands:** Control your system and applications hands-free.  
+- **🤖 AI Responses:** Context-aware replies powered by NLP.  
+- **💻 System Automation:** Open apps, manage files, and execute tasks.  
+- **🌐 Web Integration:** Search the internet and fetch information.  
+- **🔒 Secure Design:** Configurable modules with user privacy in mind.  
 
-<h2>📂 Project Structure</h2>
-<pre>
-├── jarvis.py          # Main entry point
-├── modules/           # Core functionalities
-├── config/            # Settings and API keys
-├── requirements.txt   # Dependencies
-└── README.md          # Documentation
-</pre>
+---
 
-<h2>🤝 Contributing</h2>
-<p>
-  Contributions are welcome! Feel free to fork the repo, submit issues, or open pull requests.
-</p>
+## 🛠️ Tech Stack
 
-<h2>📜 License</h2>
-<p>
-  This project is licensed under the MIT License - see the LICENSE file for details.
-</p>
+- **Language:** Python 3  
+- **Libraries:**  
+  - `speech_recognition` – voice input  
+  - `pyttsx3` – text-to-speech output  
+  - `os` – system control  
+  - `requests` – API integration  
+- **Infrastructure:** Local execution with optional cloud APIs  
 
-<hr>
+---
 
-<p align="center">
-  <em>"I am J.A.R.V.I.S. – a rather very intelligent system."</em>
-</p>
+## ⚙️ Installation & Setup
+
+### 1. Prerequisites
+
+Ensure you have Python installed. Then install the required dependencies:
+
+```bash
+pip install -r requirements.txt
